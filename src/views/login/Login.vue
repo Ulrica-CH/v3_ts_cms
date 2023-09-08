@@ -1,14 +1,12 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <div class="login">
-    login
+    <login-panel />
   </div>
 </template>
 
-
+<script setup lang="ts">
+import LoginPanel from './c-cpns/login-panel.vue'
+</script>
 
 <style lang="less" scoped>
 .login {
